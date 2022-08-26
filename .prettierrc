@@ -1,0 +1,29 @@
+{
+    "trailingComma": "none",
+    "printWidth": 150,
+    "tabWidth": 4,
+    "jsxSingleQuote": true,
+    "singleQuote": true,
+    "bracketSameLine": true,
+    "apexInsertFinalNewline": false,
+    "overrides": [
+        {
+            "files": "**/lwc/**/*.html",
+            "options": {
+                "parser": "lwc"
+            }
+        },
+        {
+            "files": "*.{cmp,page,component}",
+            "options": {
+                "parser": "html"
+            }
+        },
+        {
+            "files": "*.cls",
+            "options": {
+                "printWidth": 150
+            }
+        }
+    ]
+}
